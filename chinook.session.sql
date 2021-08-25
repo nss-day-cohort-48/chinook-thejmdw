@@ -1,3 +1,3 @@
-select BillingCountry, sum(total)
+select billingcountry, sum(total)
 from Invoice
 group by BillingCountry
